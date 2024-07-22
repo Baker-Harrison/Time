@@ -1,0 +1,3 @@
+/Users/harrisonbaker/CLionProjects/Time/cmake-build-debug/CMakeFiles/Time.dir
+/Users/harrisonbaker/CLionProjects/Time/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/harrisonbaker/CLionProjects/Time/cmake-build-debug/CMakeFiles/rebuild_cache.dir
