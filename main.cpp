@@ -122,7 +122,5 @@ void testTimeStreamOperators()
 void testTimeIntegerConversion()
 {
 	Time time(1, 0, 0, 0);
-
-	int Seconds = (time.getDays() * 86400 ) + (time.getHours()  * 3600) + (time.getMinutes() * 60) + time.getSeconds();
-	cout << "Total seconds: " << Seconds << endl;
+	cout << static_cast<int>(time) << endl;
 }

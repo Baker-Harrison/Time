@@ -241,10 +241,7 @@ ostream& operator<<(ostream &strm, const Time &obj)
 	strm << obj.getDays() << ' ' << obj.getHours() << ':'  << obj.getMinutes() << ' ' << obj.getSeconds() << endl;
 	return strm;
 }
-istream& operator>>(istream &strm,  const Time &obj)
+Time::operator int()
 {
-
+	return seconds + 60 * (minutes + 60 * (hours + 24 * days));
 }
-
-
-

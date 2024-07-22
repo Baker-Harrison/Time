@@ -58,8 +58,7 @@ public:
 	bool operator<(Time& right);
 	friend ostream& operator<<(ostream &strm, const Time &right);
 	friend istream& operator>>(istream &strm,  const Time &right) ;
-
-
+	operator int();
 };
 
 
